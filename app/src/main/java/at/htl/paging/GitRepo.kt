@@ -20,8 +20,10 @@ class GitRepo {
 }
 
 class GitRepoResponse {
+
     @field:SerializedName("total_count")
     var totalCount: Int = 0
+
     var items: List<GitRepo>? = null
 }
 
